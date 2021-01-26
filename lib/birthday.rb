@@ -6,6 +6,6 @@
 
 def happy_birthday(birthday_kids)
   birthday_kids.each do |key, ele|
-    puts "Happy birthday #{key}! You are now #{ele} years old!"
+    print "Happy Birthday #{key}! You are now #{ele} years old!"
   end
 end
