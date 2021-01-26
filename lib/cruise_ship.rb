@@ -8,4 +8,9 @@
 
 def select_winner(passengers)
   # add the code snippet here!
+  passengers.each do |key, ele|
+     if key[-1].upcase == ele[0]
+       puts ele
+     end
+  end
 end
