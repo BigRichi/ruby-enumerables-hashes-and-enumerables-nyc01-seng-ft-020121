@@ -9,7 +9,7 @@
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, ele|
-     if = ele[0] == "A"
+     if ele[0] == "A"
        puts ele
      end
   end
