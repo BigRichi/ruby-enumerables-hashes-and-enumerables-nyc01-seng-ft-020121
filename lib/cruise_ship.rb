@@ -10,7 +10,8 @@ def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, ele|
      if key[-1] == "a" && ele[0] == "A"
-       puts ele
+       winner = ele
      end
   end
+  return winner
 end
