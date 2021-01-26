@@ -9,7 +9,7 @@ suite_e: "Crumpet the Elf"
 def select_winner(passengers)
   # add the code snippet here!
   passengers.each do |key, ele|
-     if ele[0] == "A" && key == "suite_a"
+     if ele[0] == "A" 
        puts ele
      end
   end
