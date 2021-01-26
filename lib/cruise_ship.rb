@@ -11,7 +11,7 @@ def select_winner(passengers)
   winner = ""
   passengers.each do |key, ele|
      if key == :suite_a && ele[0] == "A"
-       winner = ele
+       puts ele
      end
   end
   return winner
